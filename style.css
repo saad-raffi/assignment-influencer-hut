@@ -1,0 +1,62 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(offwhite,aash);
+}
+.header{
+    padding-left:100px ;
+    font-size: 24px;}
+.banner{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 100px ;
+}
+.left{
+    padding-top: 100px;
+    padding-left: 100px;
+    width: 582px;
+    height: 270px;
+}
+.banner img{
+    width: 440px;
+    height: 414px;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    padding: 30px;
+
+}
+.banner h1{
+    font-size: 50px;
+}
+h1:hover{
+    color: rgb(87, 33, 214);
+    font-size: 60px;
+    transition: ease-in-out 2s;
+}
+.influencer{
+    color: rgb(138, 4, 138);
+
+}
+button{
+    padding: 10px 24px;
+    border-radius: 20px;
+    box-shadow: 15px;
+    background-color:rgb(138, 4, 138) ;
+    color: white;
+    font-size: 18px ;
+}
+.fa-arrow-right{
+    padding-left: 5px;
+    font-size: 12px;
+    color: whitesmoke;
+}
+.fa-camera{
+    font-size: 24px;
+    color:rgb(138, 4, 138) ;
+    padding: 5px;
+}
+.fa-camera:hover{
+    color: rgb(87, 33, 214);
+    font-size: 40px;
+    transition: ease-in-out 2s;
+    transform: rotate3d(-45deg);
+}
