@@ -60,3 +60,35 @@ button{
     transition: ease-in-out 2s;
     transform: rotate3d(-45deg);
 }
+.popular-items{
+    padding-left: 100px;
+    padding-top: 50px;
+    /* border: 1px solid gainsboro; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 80%; 
+}
+.shopping-items{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 25px;
+    margin: 30px;
+    border:0px solid gainsboro;
+    box-shadow: 0 4px 8px 0 lightgray;
+    /* width: 80%; */
+}
+.fa-star{
+    color: #FB8200;
+}
+.blank{
+    color:gray;
+    width: 5%;
+}
+.see-more{
+    background-color:white ;
+    border: none;
+    color: rgb(138, 4, 138);
+    float: right;
+    font-size: 16px;
+}
