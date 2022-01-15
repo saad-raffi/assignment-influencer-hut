@@ -246,43 +246,4 @@ textarea{
     }
     
 }
-@media screen and (min-width: 769px) and (max-width: 1400px){
 
-    .container{
-        width: 100%;
-    }
-    .banner 
-    {
-       height: 400px;
-       width: 350px;
-       grid-template-columns:1fr 1fr  ;
-    }
-    .left h1{
-        font-size: 1rem;
-    }
-    .left p{
-       font-size: 12px;
-   }
-   .left img{
-       /* position: absolute; */
-       height: fit-content;
-       grid-template-columns: 1fr 1fr 1fr;
-   }
-   .right{
-       display: grid;
-       grid-template-columns: 1fr 1fr 1fr;
-   }
-    .banner img{
-        height: 257px;
-        width: 257px;
-        /* display: block; */
-    }
-    .popular-items{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    .footer{
-        display: flex;
-    }
-    
-}
